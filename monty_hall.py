@@ -1,7 +1,6 @@
 import sys,random
 
 print "Welcome to Monty Hall!"
-print "Hang on... The game is on..."
 
 random.seed()
 
@@ -9,7 +8,15 @@ won = 0
 lost = 0
 choice = 0
 games = 100000
-swap = False
+
+print "Would you like to swap doors?"
+print "[Y]es or [N]o: ",
+c = raw_input()
+
+if c.upper() == 'Y':
+  swap = True
+else:
+  swap = False
 
 doors = ["goat", "goat", "car"]
 
