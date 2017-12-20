@@ -1,6 +1,6 @@
 """
-Pulsar Image Stacking
----------------------
+Monty Hall POC
+--------------
 Author: Jansen Penido <jansen.penido@gmail.com>
 """
 
@@ -20,9 +20,9 @@ print("[Y]es or [N]o: "),
 c = input()
 
 if c.upper() == 'Y':
-  swap = True
+    swap = True
 else:
-  swap = False
+    swap = False
 
 doors = ["goat", "goat", "car"]
 
